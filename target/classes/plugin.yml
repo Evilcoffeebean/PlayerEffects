@@ -1,0 +1,13 @@
+name: 'PlayerParticles'
+version: '1.0-SNAPSHOT'
+api-version: '1.20'
+author: deathibring
+main: dev.playgames.playerparticles.Core
+load: STARTUP
+description: PlayGames Interactive commission project.
+depend:
+  - Vault
+commands:
+  playereffects:
+    aliases: [peffects, pe]
+    description: Purchase player particle effects.
